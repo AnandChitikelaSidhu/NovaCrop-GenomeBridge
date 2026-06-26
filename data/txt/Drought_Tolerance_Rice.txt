@@ -1,0 +1,18 @@
+Publication 1
+
+Title: Identification of SNP Markers Associated with Drought Tolerance in Rice
+
+Authors: Plant Genomics Research Group
+
+Publication Date: March 2023
+
+Summary
+
+This study identified twelve significant SNP markers associated with drought tolerance in rice using genome-wide association analysis. The research evaluated 450 rice accessions under controlled drought stress. Four markers located on chromosome 4 consistently showed strong association with grain yield under water-limited conditions.
+
+Key Findings
+
+Identified 12 significant SNP markers.
+Four markers showed consistent performance across multiple environments.
+Grain yield improved by approximately 18% using marker-assisted selection.
+Candidate genes related to root architecture were discovered.
