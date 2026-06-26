@@ -1,7 +1,7 @@
 [project]
-name = "rag-microservice"
+name = "novacrop-genomebridge"
 version = "0.1.0"
-description = "Add your description here"
+description = "NovaCrop GenomeBridge — RAG, MCP PubMed, and LangGraph research assistant"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [

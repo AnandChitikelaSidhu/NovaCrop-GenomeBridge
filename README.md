@@ -1,6 +1,6 @@
-# RAG Microservice — GenomeBridge
+# NovaCrop-GenomeBridge
 
-A FastAPI microservice for **NovaCrop Research Labs** that combines three capabilities:
+A FastAPI microservice for **NovaCrop Research Labs** that powers **GenomeBridge** — combining three capabilities:
 
 1. **RAG** — ingest and query NovaCrop's internal knowledge base (PDF/TXT) via Pinecone
 2. **MCP** — search external scientific literature on PubMed through an MCP server
@@ -197,7 +197,7 @@ Nodes that need typed LLM responses use `with_structured_output()` with Pydantic
 ## Project structure
 
 ```
-rag-microservice/
+NovaCrop-GenomeBridge/
 ├── app/
 │   ├── main.py                    # FastAPI app and all HTTP endpoints
 │   ├── configs/
@@ -241,7 +241,7 @@ rag-microservice/
 
 ```bash
 git clone <repository-url>
-cd rag-microservice
+cd NovaCrop-GenomeBridge
 ```
 
 ### 2. Install dependencies
@@ -268,7 +268,7 @@ Edit `.env` with your credentials:
 ```env
 OPENAI_API_KEY=sk-your-openai-api-key
 PINECONE_API_KEY=pcsk-your-pinecone-api-key
-PINECONE_INDEX_NAME=rag-microservice
+PINECONE_INDEX_NAME=novacrop-genomebridge
 PUBMED_MCP_URL=https://pubmed.caseyjhand.com/mcp
 ```
 

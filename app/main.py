@@ -19,7 +19,7 @@ PROJECT_ROOT = Path(__file__).resolve().parents[1]
 PDF_DATA_DIR = PROJECT_ROOT / "data" / "pdf"
 TXT_DATA_DIR = PROJECT_ROOT / "data" / "txt"
 
-app = FastAPI(title="RAG Microservice", version="0.1.0")
+app = FastAPI(title="NovaCrop-GenomeBridge", version="0.1.0")
 
 
 class QueryRequest(BaseModel):
